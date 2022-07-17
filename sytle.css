@@ -1,0 +1,241 @@
+.container_main {
+
+    height: 600px;
+    width: 100%;
+    display: flex;
+    background-color: whitesmoke;
+    margin: 0px;
+    justify-content: center;
+}
+.navbar
+{
+  background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+}
+.logo
+{
+    
+    display: flex;
+   padding: 20px 20px 0px 20px;
+   
+
+}
+#logonav
+{
+    margin: 2px;
+}
+/* .navbar_link
+{
+   
+} */
+
+ul
+{
+    list-style: none;
+display: flex   ;
+}
+li
+{
+    margin: 2px 20px 0px 20px;
+    padding: 2px;
+    font-size: 30px;
+    
+
+}
+li>a
+{
+text-decoration: none;
+color: gray ;
+}
+.btn_orange_navbar
+{
+    color: white;
+    background-color: orangered;
+    height: 40px;
+    width: 200px;
+    border: orangered;
+    font-size: 15px;
+    font-weight: bolder;
+    border-radius: 20px  ;
+}
+
+.div1 {
+    width: 50%;
+    margin-top: 100px;
+    padding: 40px;
+}
+
+.div2 {
+    margin-top: 100px;
+    width: 50%;
+    background-image: url(Assignment\ Assest/slide-img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.btn_black {
+    color: white;
+    background-color: black;
+    height: 40px;
+    width: 110px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.btn_orange {
+    color: white;
+    background-color: orangered;
+    height: 40px;
+    width: 110px;
+    border: orangered;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.heading {
+    font-size: 70px;
+    font-weight: bolder;
+}
+
+.h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.p1 {
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.container_card {
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    text-align: center;
+}
+
+.orangeCl {
+    color: orangered;
+}
+
+.card_div1,
+.card_div2,
+.card_div3 {
+    border: 2px solid gray;
+    height: 250px;
+    padding: 30px;
+    margin: 20px;
+}
+
+.fresh_fruits {
+    text-align: center;
+}
+
+.best {
+    display: flex;
+}
+
+.best_div1 {
+    width: 60%;
+    padding: 20px;
+}
+
+.best_div2 {
+    width: 40%;
+    background-image: url(Assignment\ Assest/orange.png);
+    background-repeat: no-repeat;
+}
+
+.best_div2_grapes {
+    width: 40%;
+    background-image: url(Assignment\ Assest/grapes.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.best_div2_gauva {
+    width: 40%;
+    background-image: url(Assignment\ Assest/gauva.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.profile {
+    text-align: center;
+    padding: 100px;
+
+}
+
+
+/* Contact us */
+.form {
+    display: flex;
+    height: 600px;
+    width: 100%;
+}
+
+.div1_form {
+    width: 80%;
+    padding: 20px;
+}
+.form_input {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid grey;
+    font-size: larger;
+  }
+
+.div2_orange-dish {
+    width: 20%;
+    background-image: url(Assignment\ Assest/orange-dish.png);
+
+    background-repeat: no-repeat;
+}
+
+/* end div */
+.end_div {
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+    width: 100%;
+    
+}
+.btn_orange1 {
+    color: white;
+    background-color: orangered;
+    height: 40px;
+    width: 150px;
+    border: orangered;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.div1_end,.div2_end,.div3_end,.div4_end
+{
+    height: 300px;
+    padding: 80px;
+    margin: 20px; 
+}
+footer
+{
+    background-color: lightgrey;
+    margin: 30px;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    font-weight: normal;
+}
+
+@media only screen and (max-width: 600px){
+	h1
+    {
+        font-size: 1px;
+    }
+}
